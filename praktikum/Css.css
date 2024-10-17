@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a2635;
+    color: white;
+    overflow-x: hidden; 
+}
+
+
+.header {
+    background-color: #1a2635;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.store-name {
+    font-size: 24px;
+    color: white;
+}
+
+
+.nav {
+    background-color: #212a36;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-bar {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #2a3645;
+    color: white;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #4a5665;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.hero-banner {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+
+.main-content {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 1400px; 
+    margin: 0 auto; 
+}
+
+
+.left-categories {
+    width: 200px;
+    color: white;
+}
+
+.category-section {
+    margin-bottom: 2rem;
+}
+
+.category-section h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.category-list {
+    list-style: none;
+}
+
+.category-list li {
+    margin-bottom: 0.5rem;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+
+.recommended-section {
+    flex-grow: 1;
+    
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.game-carousel {
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.game-card {
+    background-color: #2a3645;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+    margin-left: -85px;
+}
+
+.game-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 200px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.main-content1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 2rem; 
+}
+
+.section-title1 {
+    font-size: 24px; 
+    color: white;
+    text-align: left; 
+    margin-left: 90px; 
+    margin-bottom: 10px; 
+}
+
+.recommend-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-grow: 1;
+    margin-left: -120px;
+}
+
+.game-carousel1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px; 
+}
+
+.game-gos {
+    margin-left: 0; 
+    border-radius: 8px;
+    overflow: hidden; 
+    width: 600px; 
+    height: 300px; 
+}
+
+.game-gos img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+}
+
+.footer {
+    background-color: #212a36;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.footer-info {
+    font-size: 14px;
+    color: #a0a0a0;
+    
+}
